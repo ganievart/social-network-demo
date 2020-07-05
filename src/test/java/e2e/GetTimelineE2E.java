@@ -27,7 +27,7 @@ public class GetTimelineE2E {
     private MockMvc mockMvc;
 
     @Test
-    void willPostMessageAndReceive200OK() throws Exception {
+    void willGetTimelineForFollowedUsers() throws Exception {
         postMessage("timelineUser1");
         postMessage("timelineUser2");
 

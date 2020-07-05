@@ -24,7 +24,7 @@ public class FollowE2E {
     private MockMvc mockMvc;
 
     @Test
-    void willPostMessageAndReceive200OK() throws Exception {
+    void willFollowAndReceive200OK() throws Exception {
         postMessage("user1");
         postMessage("user2");
 

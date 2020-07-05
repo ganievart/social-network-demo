@@ -26,7 +26,7 @@ public class GetWallE2E {
     private MockMvc mockMvc;
 
     @Test
-    void willPostMessageAndReceive200OK() throws Exception {
+    void willGetWallAndReceive200OK() throws Exception {
         mockMvc.perform(put("/api/{username}/post", "walltest")
                                 .contentType(MediaType.APPLICATION_JSON)
                                 .content("{\"message\":\"test message\"}"));
